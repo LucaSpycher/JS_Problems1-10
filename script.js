@@ -42,7 +42,7 @@ function front_times(string, times) {
 function string_bits(string) {
     var newString = "";
     for(var i = 0; i < string.length; i += 2) {
-        newString += string.substring(i, i + 1);
+        newString += string[i];
     }
     return newString;
 }
