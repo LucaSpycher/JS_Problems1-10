@@ -12,12 +12,12 @@ function sleep_in(weekday, vacation) {
 }
 
 function monkey_trouble(a_smile, b_smile) {
+    if(typeof a_smile != "boolean" || typeof b_smile != "boolean") {
+        return false;
+    }
     if((a_smile && b_smile) || !(a_smile || b_smile)) {
         return true;
     }else{
-        return false;
-    }
-    if(typeof a_smile != "boolean" || typeof b_smile != "boolean") {
         return false;
     }
 }
