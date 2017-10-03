@@ -30,6 +30,7 @@ function string_times(string, times) {
     return newString;
 }
 
+//front times
 function front_times(string, times) {
     var newString = "";
     var first3 = string.substring(0, 3);
